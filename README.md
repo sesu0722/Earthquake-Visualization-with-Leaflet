@@ -19,31 +19,25 @@ In order to show the data on the world map in didfferent layers, this project is
 
 ![3-step1_map](Images/3-step1_map.png)
 
-Your first task is to visualize an earthquake dataset. Complete the following steps:
+To visualize the earthquake dataset. I have Completed the following steps:
 
-1. Get your dataset. To do so, follow these steps: 
+1. Get the dataset from USGS: 
 
-   * The USGS provides earthquake data in a number of different formats, updated every five minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose a dataset to visualize. The following image is an example screenshot of what appears when you visit this link:
+   * The USGS provides earthquake data in a number of different formats, updated every five minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose M2.5+ Earthquakes data of past 7 days to visualize:
 
-   ![3-Data](Images/3-Data.png)
+   ![2-GeoJSON data](Images/2-GeoJSON data.png)
 
-    * When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization. The following image is a sampling of earthquake data in JSON format:
-
-   ![4-JSON](Images/4-JSON.png)
+    * click the dataset (M2.5+ Earthquakes from the Past 7 Days)to get a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization.
 
 2. Import and visualize the data by doing the following: 
 
-   * Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
+   * Using Leaflet, create a map that plots all the earthquakes from the dataset based on their longitude and latitude.
 
-       *  Your data markers should reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes should appear larger, and earthquakes with greater depth should appear darker in color.
-
-       * **Hint:** The depth of the earth can be found as the third coordinate for each earthquake.
+       *  The data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes appear larger, and earthquakes with greater depth appear darker in color.
 
    * Include popups that provide additional information about the earthquake when its associated marker is clicked.
 
-   * Create a legend that will provide context for your map data.
-
-   * Your visualization should look something like the preceding map.
+   * A legend that provides context for the map data.
 
 - - -
 
