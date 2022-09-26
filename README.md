@@ -25,7 +25,7 @@ To visualize the earthquake dataset. I have Completed the following steps:
 
    * The USGS provides earthquake data in a number of different formats, updated every five minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and choose M2.5+ Earthquakes data of past 7 days to visualize:
 
-   ![2-GeoJSON data](Images/2-GeoJSON data.png)
+   ![2-GeoJSON_data](Images/2-GeoJSON_data.png)
 
     * click the dataset (M2.5+ Earthquakes from the Past 7 Days)to get a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization.
 
