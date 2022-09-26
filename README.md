@@ -41,23 +41,23 @@ To visualize the earthquake dataset. I have Completed the following steps:
 
 - - -
 
-### Part 2: Gather and Plot More Data (Optional)
+### Part 2: Gather and Plot tectonic plates dataset
 
-The USGS wants you to plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. So, you will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
+Part 2 plots a second dataset on the map to illustrate the relationship between tectonic plates and seismic activity. So, I pulled in this dataset and visualize it alongside the original data (in part 1). Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
-The following image is an example screenshot of what the USGS would like you to produce:
+The following image shows the tectonic plates along with the earthquak markers:
 
-![5-Advanced](Images/5-Advanced.png)
+![4-step2_map_street](Images/4-step2_map_street.png)
 
-Perform the following tasks: 
+
 
 * Plot the tectonic plates dataset on the map in addition to the earthquakes.
 
-* Add other base maps to choose from.
+* There are three base maps to choose from- Street, Grayscale, Watercolor.
 
-* Put each dataset into separate overlays that can be turned on and off independently.
+* Separated overlays- Tectonic Plates and Earthquakes, that can be turned on and off independently.
 
-* Add layer controls to our map.
+* Layer controls to the map is added as well.
 
 ## Rubric
 
